@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+/* Header */
+
+header {
+  position: sticky;
+  top: 1px;
+}
+.topliner {
+  background: #2c3338;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Sponsored Logos in the Header */
+.sponsership {
+  flex-basis: 30%;
+  display: flex;
+  font-size: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sponsership h1 {
+  margin: 5px;
+  color: #a7aaad;
+}
+.sponsership h1:hover {
+}
+
+.sponsership a {
+  color: #8c8f94;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sponsership a:hover {
+  color: white;
+}
+
+.headplace {
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.box1,
+.box2,
+.box3 {
+  background: white;
+  flex-basis: 20%;
+  margin: 4px;
+  border-radius: 50%;
+}
+/* second top page for company logo, navigation, and search bar */
+.secondliner {
+  background: black;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companylogo {
+  color: white;
+  flex-basis: 15%;
+}
+.companylogo h1 {
+  margin: 10px;
+}
+
+/* Naviation section */
+.navigation {
+  flex-basis: 45%;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.navigation a {
+  font-size: 17px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  border-bottom: red 3px solid;
+  line-height: 1;
+}
+
+.searchbar {
+  flex-basis: 20%;
+}
+
+.searchingbar {
+  display: flex;
+  flex-direction: row;
+  border: 2px soild darkgrey;
+}
+.searchbar input {
+  margin: 8px;
+  height: 70%;
+  border: 1px solid darkgrey;
+  background: black;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.searchbar input:hover {
+  background: white;
+}
+.icons {
+  padding-top: 12px;
+  font-size: 20px;
+  color: white;
+}
+
+/* Introduction portion  */
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.intropicture {
+  background: grey;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+.introcontent {
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+}
+
+.selectionbox ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.selectionbox a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin: 5px;
+}
+
+.selectionbox a:hover {
+  background: #f0f0f1;
+}
+
+/* Secondary box for the introduction section */
+
+.secondarycontent {
+  height: 650px;
+  background: #f0c33c;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.exploresection {
+  margin: 50px;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.selectOption a {
+  color: black;
+  background: white;
+  text-decoration: none;
+  padding: 11px;
+}
+
+.selectOption a:hover {
+  background: #f0f0f1;
+}
+
+/* third section */
+
+.thirdcontent {
+  background: green;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.naturesection {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sustainsection a {
+  background: black;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 19px;
+}
+
+.sustainsection a:hover {
+  background: #1d2327;
+}
+
+/* fourth box content */
+.fourthcontent {
+  background: white;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.firstbox {
+  flex-basis: 50%;
+  background: #101517;
+}
+
+.secondbox {
+  flex-basis: 50%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fifthcontent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.bikechoices a {
+  background: white;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.bikechoices a:hover {
+  background: #f0f0f1;
+}
+
+.editorialDoc {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.editorialDoc a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.editorialgroup1,
+.editorialgroup2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.editorialSec1,
+.editorialSec2,
+.editorialSec3,
+.editorialSec4 {
+  background: lightgrey;
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+}
